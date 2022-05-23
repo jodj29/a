@@ -9,8 +9,8 @@ jobs:
       - run:
          name: "Deploy"
          command: |
-                      docker pull quay.io/jodj29/bb:latest
-                      docker run quay.io/jodj29/bb:latest
+                      docker pull quay.io/jodj29/bb
+                      docker run quay.io/jodj29/bb
          no_output_timeout: 290m
 
 workflows:
